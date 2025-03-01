@@ -15,26 +15,26 @@ const Header =()=> {
             <div className="container-fluid">
                     <div className="d-flex align-items-center mr-5 justify-content-center gap-4">
                     {/* <h1 className="logo-text text-capitalize text-danger text-center m-0" id="logo">netMovies</h1> */}
-                    <img src="/t.jpeg" className="header-img" />
+                    <img src="/bred.jpeg" className="header-img" />
                         <nav className="topNav">
                             <ul className="nav list-unstyled m-0 d-flex gap-3">
                                 <li className="nav-item">
-                                    <Link className=" text-danger text-decoration-none" to='/sign'>Sign In</Link>
+                                    <Link className="page-text text-decoration-none" to='/sign'>Sign In</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className=" text-danger text-decoration-none" to=''>Create Account</Link>
+                                    <Link className="page-text text-decoration-none" to=''>Create Account</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className=" text-danger text-decoration-none" to=''>Films</Link>
+                                    <Link className=" page-text text-decoration-none" to=''>Films</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className=" text-danger text-decoration-none" to=''>Lists</Link>
+                                    <Link className="page-text text-decoration-none" to=''>Lists</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className=" text-danger text-decoration-none" to=''>Members</Link>
+                                    <Link className=" page-text text-decoration-none" to=''>Members</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className=" text-danger text-decoration-none" to=''>Journal</Link>
+                                    <Link className="  page-text text-decoration-none" to=''>Journal</Link>
                                 </li>
                             </ul>
                         </nav>

@@ -2,7 +2,7 @@ export default[
     {
     id: 1,
     title: "Captain America: Brave New World",
-    imgUrl: "/image/america.jpeg",
+    imgUrl: "/image/hope.jpeg",
     genre: "Action, Adventure",
     description: "Captain America faces new threats in a changing world.",
     rating: 'PG-13',
@@ -17,7 +17,7 @@ export default[
     {
     id: 2,
     title: "The Dark Knight",
-    imgUrl: "/image/darknight.jpeg",
+    imgUrl: "/image/darkr.jpeg",
     genre: "Action, Crime, Drama",
     description: "Batman faces the Joker in a battle for Gotham.",
     rating: 'PG-13',
@@ -32,7 +32,7 @@ export default[
     {
     id: 3,
     title: "Deadpool & Wolverine",
-    imgUrl: "/image/dead.jpeg",
+    imgUrl: "/image/deadr.jpeg",
     genre: "Action, Comedy",
     description: "Deadpool and Wolverine team up for an insane adventure.",
     rating: 'R',
@@ -47,7 +47,7 @@ export default[
     {
     id: 4,
     title: "Flow",
-    imgUrl: "/image/flow.jpeg",
+    imgUrl: "/image/flowr.jpeg",
     genre: "Drama, Thriller",
     description: "A gripping thriller about unexpected twists.",
     rating: 'PG-13',
@@ -62,7 +62,7 @@ export default[
     {
     id: 5,
     title: "Heart Eyes",
-    imgUrl: "/image/hearteyes.jpeg",
+    imgUrl: "/image/eyesr.jpeg",
     genre: "Romance, Drama",
     description: "A love story that will make your heart melt.",
     rating: 'R',
@@ -77,7 +77,7 @@ export default[
     {
     id: 6,
     title: "Iron Man 3",
-    imgUrl: "/image/iron.jpeg",
+    imgUrl: "/image/ironr.jpeg",
     genre: "Action, Sci-Fi",
     description: "Tony Stark faces a powerful enemy, the Mandarin.",
     rating: 'PG-13',
@@ -92,7 +92,7 @@ export default[
     {
     id: 7,
     title: "Kraven the Hunter",
-    imgUrl: "/image/krav.jpeg",
+    imgUrl: "/image/kravr.jpeg",
     genre: "Action, Adventure",
     description: "Kraven, a legendary hunter, takes on his biggest challenge.",
     rating: 'R',
@@ -107,7 +107,7 @@ export default[
     {
     id: 8,
     title: "Mufasa: The Lion King",
-    imgUrl: "/image/lion.jpeg",
+    imgUrl: "/image/lionr.jpeg",
     genre: "Animation, Adventure",
     description: "The untold story of Mufasa’s rise to power.",
     rating: 'PG-13',
@@ -122,7 +122,7 @@ export default[
     {
     id: 9,
     title: "Moana 2",
-    imgUrl: "/image/moana.jpeg",
+    imgUrl: "/image/moanar.jpeg",
     genre: "Animation, Adventure",
     description: "Moana embarks on another great journey.",
     rating: 'PG-13',
@@ -137,7 +137,7 @@ export default[
     {
     id: 10,
     title: "The Monkey",
-    imgUrl: "/image/monkey.jpeg",
+    imgUrl: "/image/monkeyr.jpeg",
     genre: "Horror, Thriller",
     description: "A terrifying tale of a cursed monkey.",
     rating: 'R',
@@ -152,7 +152,7 @@ export default[
     {
     id: 11,
     title: "Paddington in Peru",
-    imgUrl: "/image/paddin.jpeg",
+    imgUrl: "/image/paddinr.jpeg",
     genre: "Adventure, Comedy",
     description: "Paddington’s new adventure takes him to Peru.",
     rating: 'PG-13',
@@ -167,7 +167,7 @@ export default[
     {
     id: 12,
     title: "Red One",
-    imgUrl: "/image/redone.jpeg",
+    imgUrl: "/image/redoner.jpeg",
     genre: "Action, Comedy",
     description: "A holiday action-comedy adventure.",
     rating: 'PG-13',
@@ -182,7 +182,7 @@ export default[
     {
     id: 13,
     title: "Sonic 3",
-    imgUrl: "/image/sonic.jpeg",
+    imgUrl: "/image/sonicr.jpeg",
     genre: "Animation, Action",
     description: "Sonic and friends return for another adventure.",
     rating: 'PG-3',
@@ -197,7 +197,7 @@ export default[
     {
     id: 14,
     title: "The Substance",
-    imgUrl: "/image/substance.jpeg",
+    imgUrl: "/image/subr.jpeg",
     genre: "Horror, Sci-Fi",
     description: "A mysterious substance changes lives.",
     rating: 'R',
@@ -211,8 +211,8 @@ export default[
     },
     {
     id: 15,
-    title: "Undercover Brother",
-    imgUrl: "/image/undercover.jpeg",
+    title: "Undercover Brothe",
+    imgUrl: "/image/undercoverr.jpeg",
     genre: "Comedy, Action",
     description: "A secret agent takes on a hilarious mission.",
     rating: 'PG-13',

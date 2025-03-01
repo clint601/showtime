@@ -4,12 +4,12 @@ const Footer =()=> {
         <div className="container">
             <div className="row">
                 <div className="col-sm-6">
-                    <h2 className='footer-text text-danger' id="lcoText">Location</h2>
+                    <h2 className='footer-text page-text' id="lcoText">Location</h2>
                     <p className="loc-text text-light">3012 - 3040 N State St.
                     Jackson, MS 39216</p>
                 </div>
                 <div className="col-sm-6">
-                    <h2 className=" footer-text text-center text-sm-end social-item text-uppercase text-danger">Contacts</h2>
+                    <h2 className=" footer-text text-center text-sm-end social-item text-uppercase page-text">Contacts</h2>
                     <nav className="nav social-nav justify-content-center justify-content-sm-end ">
                         <a href=""target="_blank" className="nav-link">
                             <i class=" text-danger icons bi bi-instagram"></i>

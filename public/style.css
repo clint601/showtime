@@ -8,7 +8,16 @@ body{
     height: 100vh;
 }
 .header {
-    background-color: #2B2B2B;
+    background-color: #262626;
+}
+
+.header-img {
+    height: 90px;
+    width: 20%;
+}
+
+.page-text {
+    color: #E3242B;
 }
 
 .card{
