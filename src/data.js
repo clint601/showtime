@@ -1,4 +1,4 @@
-const movies = [
+export default[
     {
     id: 1,
     title: "Captain America: Brave New World",
@@ -167,7 +167,7 @@ const movies = [
     {
     id: 12,
     title: "Red One",
-    imgUrl: "/imager/redone.jpeg",
+    imgUrl: "/image/redone.jpeg",
     genre: "Action, Comedy",
     description: "A holiday action-comedy adventure.",
     rating: 'PG-13',
