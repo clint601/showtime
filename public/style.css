@@ -7,8 +7,20 @@
 }
 
 .card{
+    width: 300px;
     
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px #000;
 }
+
+/* .icons {
+    color: red;
+} */
+
+/* .footer-text {
+    color: red;
+} */
 
 .slide-img{
     width: 100%;
@@ -23,4 +35,8 @@
 
 #section1{
     background-color: red;
+}
+
+#contactfooter{
+    background-color: #1B1B1B;
 }
