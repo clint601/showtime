@@ -5,9 +5,13 @@ const movies = [
     imgUrl: "/image/america.jpeg",
     genre: "Action, Adventure",
     description: "Captain America faces new threats in a changing world.",
-    releaseDate: "2024-07-26",
+    rating: 'PG-13',
     duration: "150 min",
     actors: ["Anthony Mackie", "Harrison Ford", "Liv Tyler"],
+    showtimes: [
+        { day: 'Monday', time: '12:00 PM'},
+        { day: 'Tuesday', time: '2:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -16,9 +20,13 @@ const movies = [
     imgUrl: "/image/darknight.jpeg",
     genre: "Action, Crime, Drama",
     description: "Batman faces the Joker in a battle for Gotham.",
-    releaseDate: "2008-07-18",
+    rating: 'PG-13',
     duration: "152 min",
     actors: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    showtimes: [
+        { day: 'Sunday', time: '12:00 PM'},
+        { day: 'Friday', time: '10:50 AM'}
+    ],
     hasWatch: true,
     },
     {
@@ -27,9 +35,13 @@ const movies = [
     imgUrl: "/image/dead.jpeg",
     genre: "Action, Comedy",
     description: "Deadpool and Wolverine team up for an insane adventure.",
-    releaseDate: "2024-11-08",
+    rating: 'R',
     duration: "140 min",
     actors: ["Ryan Reynolds", "Hugh Jackman"],
+    showtimes: [
+        { day: 'WednesDay', time: '12:00 PM'},
+        { day: 'ThursDay', time: '2:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -38,9 +50,13 @@ const movies = [
     imgUrl: "/image/flow.jpeg",
     genre: "Drama, Thriller",
     description: "A gripping thriller about unexpected twists.",
-    releaseDate: "2025-03-15",
+    rating: 'PG-13',
     duration: "120 min",
-    actors: ["TBA"],
+    actors: ["Gints Zilbalodis"],
+    showtimes: [
+        { day: 'ThursDay', time: '6:00 PM'},
+        { day: 'Friday', time: '7:50'}
+    ],
     hasWatch: true,
     },
     {
@@ -49,9 +65,13 @@ const movies = [
     imgUrl: "/image/hearteyes.jpeg",
     genre: "Romance, Drama",
     description: "A love story that will make your heart melt.",
-    releaseDate: "2025-02-10",
+    rating: 'R',
     duration: "125 min",
-    actors: ["TBA"],
+    actors: ["Olivia Holt","Mason Gooding","Josh Ruben","Jordana Brewster"],
+    showtimes: [
+        { day: 'Monday', time: '3:30 PM'},
+        { day: 'Sunday', time: '2:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -60,9 +80,13 @@ const movies = [
     imgUrl: "/image/iron.jpeg",
     genre: "Action, Sci-Fi",
     description: "Tony Stark faces a powerful enemy, the Mandarin.",
-    releaseDate: "2013-05-03",
+    rating: 'PG-13',
     duration: "130 min",
     actors: ["Robert Downey Jr.", "Gwyneth Paltrow", "Ben Kingsley"],
+    showtimes: [
+        { day: 'Saturday', time: '1:00 PM'},
+        { day: 'Monday', time: '9:40 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -71,9 +95,13 @@ const movies = [
     imgUrl: "/image/krav.jpeg",
     genre: "Action, Adventure",
     description: "Kraven, a legendary hunter, takes on his biggest challenge.",
-    releaseDate: "2024-08-30",
+    rating: 'R',
     duration: "145 min",
     actors: ["Aaron Taylor-Johnson"],
+    showtimes: [
+        { day: 'WednesDay', time: '4:30 PM'},
+        { day: 'Friday', time: '2:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -82,9 +110,13 @@ const movies = [
     imgUrl: "/image/lion.jpeg",
     genre: "Animation, Adventure",
     description: "The untold story of Mufasa’s rise to power.",
-    releaseDate: "2024-12-20",
+    rating: 'PG-13',
     duration: "118 min",
-    actors: ["TBA"],
+    actors: ["Aaron Pierre","Mads Mikkelsen","Beyonce","John Kani"],
+    showtimes: [
+        { day: 'SaturDay', time: '11:20 PM'},
+        { day: 'ThurDay', time: '5:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -93,9 +125,13 @@ const movies = [
     imgUrl: "/image/moana.jpeg",
     genre: "Animation, Adventure",
     description: "Moana embarks on another great journey.",
-    releaseDate: "2024-11-27",
+    rating: 'PG-13',
     duration: "115 min",
     actors: ["Auli’i Cravalho", "Dwayne Johnson"],
+    showtimes: [
+        { day: 'Monday', time: '11:00 PM'},
+        { day: 'Tuesday', time: '2:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -104,9 +140,13 @@ const movies = [
     imgUrl: "/image/monkey.jpeg",
     genre: "Horror, Thriller",
     description: "A terrifying tale of a cursed monkey.",
-    releaseDate: "2025-04-05",
+    rating: 'R',
     duration: "122 min",
-    actors: ["TBA"],
+    actors: ["Oz Perkins", "Theo James","Tatiana", "Elijah Wood"],
+    showtimes: [
+        { day: 'WednesDay', time: '6:20 PM'},
+        { day: 'Tuesday', time: '2:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -115,9 +155,13 @@ const movies = [
     imgUrl: "/image/paddin.jpeg",
     genre: "Adventure, Comedy",
     description: "Paddington’s new adventure takes him to Peru.",
-    releaseDate: "2024-11-08",
+    rating: 'PG-13',
     duration: "110 min",
     actors: ["Ben Whishaw"],
+    showtimes: [
+        { day: 'SaturDay', time: '12:00 PM'},
+        { day: 'SunDay', time: '2:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -126,9 +170,13 @@ const movies = [
     imgUrl: "/imager/redone.jpeg",
     genre: "Action, Comedy",
     description: "A holiday action-comedy adventure.",
-    releaseDate: "2024-12-15",
+    rating: 'PG-13',
     duration: "120 min",
     actors: ["Dwayne Johnson", "Chris Evans"],
+    showtimes: [
+        { day: 'Friday', time: '12:15 PM'},
+        { day: 'Tuesday', time: '4:20 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -137,9 +185,13 @@ const movies = [
     imgUrl: "/image/sonic.jpeg",
     genre: "Animation, Action",
     description: "Sonic and friends return for another adventure.",
-    releaseDate: "2024-12-20",
+    rating: 'PG-3',
     duration: "110 min",
     actors: ["Ben Schwartz", "Idris Elba"],
+    showtimes: [
+        { day: 'Wednesday', time: '12:00 AM'},
+        { day: 'Tuesday', time: '8:00 AM'}
+    ],
     hasWatch: true,
     },
     {
@@ -148,9 +200,13 @@ const movies = [
     imgUrl: "/image/substance.jpeg",
     genre: "Horror, Sci-Fi",
     description: "A mysterious substance changes lives.",
-    releaseDate: "2025-01-10",
+    rating: 'R',
     duration: "118 min",
-    actors: ["TBA"],
+    actors: ["Demi Moore","Margaret Qualley","Dennis Quaid","Hugo Diego Garcia"],
+    showtimes: [
+        { day: 'Monday', time: '12:00 PM'},
+        { day: 'Tuesday', time: '2:30 PM'}
+    ],
     hasWatch: true,
     },
     {
@@ -159,9 +215,13 @@ const movies = [
     imgUrl: "/image/undercover.jpeg",
     genre: "Comedy, Action",
     description: "A secret agent takes on a hilarious mission.",
-    releaseDate: "2025-05-20",
+    rating: 'PG-13',
     duration: "105 min",
-    actors: ["TBA"],
+    actors: ["Eddie Griffin", "Dave Chappelle","Chris Kattan","Denise Richards"],
+    showtimes: [
+        { day: 'Thursday', time: '12:00 PM'},
+        { day: 'Tuesday', time: '2:30 PM'}
+    ],
     hasWatch: true,
     }
 ];
