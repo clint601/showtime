@@ -27,15 +27,15 @@ data-bs-ride="carousel">
     <div className="carousel-inner">
 
         <div className="carousel-item active" data-bs-interval="6000">
-        <img src="/capt.jpeg" className="w-100 slide-img" />
+        <img src="/mrw.jpeg" className="w-100 slide-img" />
         </div>
 
         <div className="carousel-item "data-bs-interval="5000">
-        <img src="/wicked.jpeg" className="w-100 slide-img" />
+        <img src="/21.jpeg" className="w-100 slide-img" />
         </div>
 
         <div className="carousel-item " data-bs-interval="6000">
-            <img src="/lion.jpeg" className="w-100 slide-img" />
+            <img src="/grown.jpeg" className="w-100 slide-img" />
         </div>
 
     </div>
