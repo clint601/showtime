@@ -1,0 +1,23 @@
+*{box-sizing: border-box;}
+
+
+
+.header {
+    background-color: #2B2B2B;
+}
+
+.slide-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.icon {
+    position: absolute;
+    height: 100%;
+}
+
+
+#section1{
+    background-color: red;
+}
