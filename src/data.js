@@ -197,7 +197,7 @@ export default[
     {
     id: 14,
     title: "The Substance",
-    imgUrl: "/image/subr.jpeg",
+    imgUrl: "/image/sub1.jpeg",
     genre: "Horror, Sci-Fi",
     description: "A mysterious substance changes lives.",
     rating: 'R',

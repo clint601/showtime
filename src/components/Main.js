@@ -27,7 +27,7 @@ data-bs-ride="carousel">
     <div className="carousel-inner">
 
         <div className="carousel-item active" data-bs-interval="6000">
-        <img src="/mrw.jpeg" className="w-100 slide-img" />
+        <img src="/wickr.jpeg" className="w-100 slide-img" />
         </div>
 
         <div className="carousel-item "data-bs-interval="5000">

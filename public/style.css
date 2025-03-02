@@ -20,12 +20,31 @@ body{
     color: #E3242B;
 }
 
+/* .btn {
+    background: black;
+    color:#E3242B;
+    border: 2px solid #E3242B;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px #E3242B;
+    box-shadow: 0px 0px 10px #E3242B;
+  }
+  .btn:hover {
+    box-shadow: 0px 0px 20px #E3242B;
+  }
+   */
+  
 .card{
     width: 300px;
     
     margin: 20px;
     border-radius: 15px;
     box-shadow: 0px 4px 6px #000;
+}
+
+.card-footer {
+    background-color: white;
 }
 
 /* .icons {
@@ -53,4 +72,41 @@ body{
 #contactfooter{
     height: 1000%;
     background-color: #1B1B1B;
+}
+
+.ticket-button {
+    background: linear-gradient(135deg, #ffcc00, #ff6600);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.ticket-button::before,
+.ticket-button::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ticket-button::before {
+    left: -10px;}
+
+.ticket-button::after {
+    right: -10px;
+}
+.ticket-button:hover {
+    background: linear-gradient(135deg, #ff9900, #ff3300);
+    transform: scale(1.05);
 }
