@@ -12,15 +12,15 @@ const Footer =()=> {
                     <h2 className=" footer-text text-center text-sm-end social-item text-uppercase page-text">Contacts</h2>
                     <nav className="nav social-nav justify-content-center justify-content-sm-end ">
                         <a href=""target="_blank" className="nav-link">
-                            <i class=" text-danger icons bi bi-instagram"></i>
+                            <i class=" text-light icons bi bi-instagram"></i>
                             <span className="visually-hidden">instagram</span>
                         </a>
                         <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"target="_blank" className="nav-link">
-                            <i class=" text-danger icons bi bi-facebook"></i>
+                            <i class=" text-light icons bi bi-facebook"></i>
                             <span className="visually-hidden">facebook</span>
                         </a>
                         <a href="https://x.com/chriscode167957" target="_blank" className="nav-link">
-                            <i className=" text-danger icons bi bi-twitter icons"></i>
+                            <i className=" text-light icons bi bi-twitter icons"></i>
                             <span className="visually-hidden">twitter</span>
                         </a>
                     </nav>
