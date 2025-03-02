@@ -3,6 +3,10 @@
 
 body{
     background-color: #3D3D3D;
+    /* background-image: url(image/newback.jpeg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
     margin: 0;
     padding: 0;
     height: 100vh;

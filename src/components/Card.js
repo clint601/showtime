@@ -20,9 +20,7 @@ const Card = ( props ) => {
                     ))}
                 </div>
                 {/* <button className="btn btn-primary text-capitalize align-items-center" id="ticketBtn">Ticket</button> */}
-                <button class="ticket-button">
-  🎟 Get Tickets
-</button>
+                <button class="ticket-button">🎟 Get Tickets</button>
 
             </div>
         </div>

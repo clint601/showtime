@@ -26,7 +26,7 @@ const Footer =()=> {
                     </nav>
                 </div>
             </div>
-                <p className="colophon text-center text-light">Site by clint Jackson&copy;2025</p>
+                <p className="colophon text-center text-light">Site by Clint Jackson&copy;2025</p>
                 <p className="text-center"><a href="#headerSection1" className="BT text-light">back to Top</a></p>
         </div>
     </footer>
