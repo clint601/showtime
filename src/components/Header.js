@@ -34,14 +34,14 @@ const Header =()=> {
                                     <Link className=" page-text text-decoration-none" to=''>Members</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="  page-text text-decoration-none" to=''>Journal</Link>
+                                    <Link className="  page-text text-decoration-none" to=''>Menu</Link>
                                 </li>
                             </ul>
                         </nav>
                             <form action="#" className="form search-form">
                                 <div className="input-group">
                                 <input type="search" className="form-control-sm rounded-pill"/>
-                                <span className="icon start-0 ps-3 d-flex align-items-center">
+                                <span className="icon start-0 ps-3 d-flex align-items-cente">
                                     <i className="bi bi-search"></i>
                             </span>
                             </div>

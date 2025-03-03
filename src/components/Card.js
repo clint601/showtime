@@ -3,7 +3,7 @@ const Card = ( props ) => {
     return (
             <div className="col">
                 <div className=" card">
-            <img src={props.imgUrl}  className="card-image rounded" />
+            <img src={props.imgUrl}  className="card-image " />
             <div className="">
                     <h6 className="text-xl font-bold text-center">{props.title}</h6>
                 </div>
