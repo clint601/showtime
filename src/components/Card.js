@@ -19,8 +19,10 @@ const Card = ( props ) => {
                         <p key={index} className="text-gray-700 text-sm">{show.day}: {show.time}</p>
                     ))}
                 </div>
+                <div className="btn">
                 {/* <button className="btn btn-primary text-capitalize align-items-center" id="ticketBtn">Ticket</button> */}
                 <button class="ticket-button">🎟 Get Tickets</button>
+                </div>
 
             </div>
         </div>

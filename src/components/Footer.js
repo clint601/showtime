@@ -20,7 +20,7 @@ const Footer =()=> {
                             <span className="visually-hidden">facebook</span>
                         </a>
                         <a href="https://x.com/chriscode167957" target="_blank" className="nav-link">
-                            <i className=" text-light icons bi bi-twitter icons"></i>
+                        <i class=" text-light icons bi bi-twitter-x"></i>
                             <span className="visually-hidden">twitter</span>
                         </a>
                     </nav>

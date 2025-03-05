@@ -115,7 +115,7 @@ export default[
     actors: ["Aaron Pierre","Mads Mikkelsen","Beyonce","John Kani"],
     showtimes: [
         { day: 'SaturDay', time: '11:20 PM'},
-        { day: 'ThurDay', time: '5:30 PM'}
+        { day: 'ThursDay', time: '5:30 PM'}
     ],
     hasWatch: true,
     },
