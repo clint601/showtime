@@ -18,30 +18,33 @@ const Header =()=> {
                     <img src="/bred.jpeg" className="header-img" />
                         <nav className="topNav">
                             <ul className="nav list-unstyled m-0 d-flex gap-3">
+                            <li className="nav-item">
+                                    <Link className="page-text text-decoration-none" to='/home'>Home</Link>
+                                </li>
                                 <li className="nav-item">
                                     <Link className="page-text text-decoration-none" to='/sign'>Sign In</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="page-text text-decoration-none" to=''>Create Account</Link>
+                                    <Link className="page-text text-decoration-none" to='/'>Create Account</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className=" page-text text-decoration-none" to=''>Films</Link>
+                                    <Link className=" page-text text-decoration-none" to='/'>Films</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="page-text text-decoration-none" to=''>Lists</Link>
+                                    <Link className="page-text text-decoration-none" to='/'>Lists</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className=" page-text text-decoration-none" to=''>Members</Link>
+                                    <Link className=" page-text text-decoration-none" to='/'>Members</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="  page-text text-decoration-none" to=''>Menu</Link>
+                                    <Link className="  page-text text-decoration-none" to='/'>Menu</Link>
                                 </li>
                             </ul>
                         </nav>
                             <form action="#" className="form search-form">
                                 <div className="input-group">
                                 <input type="search" className="form-control-sm rounded-pill"/>
-                                <span className="icon start-0 ps-3 d-flex align-items-cente">
+                                <span className="icon start-0 ps-3 d-flex align-items-center">
                                     <i className="bi bi-search"></i>
                             </span>
                             </div>

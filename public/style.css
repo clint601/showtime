@@ -4,8 +4,8 @@
 body{
     background-color: #3D3D3D;
     background-image: url(image/newrr.jpeg);
-    height: 100vh;
-    object-fit: cover;
+    /* height: 100vh; */
+    background-size: cover;
 }
 .header {
     background-color: #262626;
@@ -17,6 +17,10 @@ body{
 }
 
 .page-text {
+    color: #E3242B;
+}
+
+.bottom-text {
     color: #E3242B;
 }
 
@@ -47,8 +51,16 @@ body{
     background-color: white;
 }
 
- .icons {
+.icons {
     color: red;
+}
+
+.page-text:hover{
+    color: white;
+}
+
+.figure-img {
+    height: 300px;
 }
 
 /* .footer-text {
@@ -110,4 +122,32 @@ body{
 .ticket-button:hover {
     background: linear-gradient(135deg, #ff9900, #ff3300);
     transform: scale(1.05);
+}
+
+.happy {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.sign-in {
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sign-in:hover {
+    background: darkblue;
 }

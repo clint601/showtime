@@ -1,4 +1,6 @@
 
+import { Link } from 'react-router-dom'
+
 const Card = ( props ) => {
     return (
             <div className="col">
@@ -20,10 +22,9 @@ const Card = ( props ) => {
                     ))}
                 </div>
                 <div className="btn">
-                {/* <button className="btn btn-primary text-capitalize align-items-center" id="ticketBtn">Ticket</button> */}
-                <button class="ticket-button">🎟 Get Tickets</button>
+                <Link className="ticket-button align-item-center text-decoration-none " to='/movie'>🎟 Get Tickets</Link>
+                {/* <button class="ticket-button">🎟 Get Tickets</button> */}
                 </div>
-
             </div>
         </div>
             </div>

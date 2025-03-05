@@ -1,7 +1,6 @@
 import Card from "./Card";
-import Movie from "./Movie";
 
-const Main = (props) => {
+const Home = (props) => {
     const cardComponents = props.data.map((item, index) => {
         return (
             <Card 
@@ -83,4 +82,4 @@ data-bs-ride="carousel">
     </main>
     );
 };
-export default Main;
+export default Home;
