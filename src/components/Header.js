@@ -14,7 +14,6 @@ const Header =()=> {
             <section id="headerSection">
             <div className="container-fluid">
                     <div className="d-flex align-items-center mr-5 justify-content-center gap-4">
-                    {/* <h1 className="logo-text text-capitalize text-danger text-center m-0" id="logo">netMovies</h1> */}
                     <img src="/bred.jpeg" className="header-img" />
                         <nav className="topNav">
                             <ul className="nav list-unstyled m-0 d-flex gap-3">

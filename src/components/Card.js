@@ -11,10 +11,6 @@ const Card = ( props ) => {
                 </div>
                 <div className ="card-footer">
                             <p className="text-gray-700 text-sm">Genre: {props.genre}</p>
-                                    {/* <p className="text-gray-500 text-sm mt-2">{props.description}</p>
-                                        <p className="text-gray-900 font-semibold mt-2">Rating: {props.rating}</p>
-                                        <p className="text-gray-900 font-semibold">Duration: {props.duration}</p>
-                                        <p className="text-gray-800 text-sm mt-2">Actors: {props.actors.join(", ")}</p> */}
                                     <div className="mt-3">
                                 <h4 className="text-gray-900 font-bold">Show Day:</h4>
                             {props.showtimes.map((show, index) => (
@@ -23,7 +19,6 @@ const Card = ( props ) => {
                 </div>
                 <div className="btn">
                 <Link className="ticket-button align-item-center text-decoration-none " to='/movie'>🎟 Get Tickets</Link>
-                {/* <button class="ticket-button">🎟 Get Tickets</button> */}
                 </div>
             </div>
         </div>

@@ -8,7 +8,6 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Movies from './components/Movies'
 import Error from './components/Error'
-// import Movies from './components/Movies'
 import Sign from './components/Sign'
 
 import data from './data'
@@ -30,8 +29,7 @@ const App =()=> {
 
     return (
         <>
-        <Header />
-        {/* <Movies /> */}
+    <Header />
         <Routes>
             <Route path='/' element={ <Main data={myData} />} />
             <Route path='/sign' element={ <Sign userData={userData}/>} />
@@ -39,10 +37,7 @@ const App =()=> {
             <Route path='/movie' element={ <Movies data={myData} />} />
             <Route path='*' element={<Error />} />
         </Routes>
-
-        {/* <Main data={myData} /> */}
-        <Footer />
-        {/* <ImagesSlider slides={slides}/> */}
+    <Footer />
         </>
     )
 }
