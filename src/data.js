@@ -4,13 +4,15 @@ export default[
     title: "Captain America: Brave New World",
     imgUrl: "/image/hope.jpeg",
     genre: ["Action, Adventure"],
-    description: "Captain America faces new threats in a changing world.",
+    description: "Sam Wilson, the new Captain America, finds himself in the middle of an international incident and must discover the motive behind a nefarious global plan.",
     rating: 'PG-13',
-    duration: "150 min",
+    duration: "1h 58m",
     actors: ["Anthony Mackie", "Harrison Ford", "Liv Tyler"],
     showtimes: [
-        { day: 'Monday', time: '12:00 PM'},
-        { day: 'Tuesday', time: '2:30 PM'}
+        {
+            day: 'Monday, July 4',
+            times:['2:30 PM','12:00 AM']
+        }
     ],
     hasWatch: true,
     },
@@ -19,13 +21,15 @@ export default[
     title: "The Dark Knight",
     imgUrl: "/image/darkr.jpeg",
     genre: ["Action, Crime, Drama"],
-    description: "Batman faces the Joker in a battle for Gotham.",
+    description: "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
     rating: 'PG-13',
-    duration: "152 min",
+    duration: "2h 32min",
     actors: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     showtimes: [
-        { day: 'Sunday', time: '12:00 PM'},
-        { day: 'Friday', time: '10:50 AM'}
+        {
+            day: 'Tuesday, July 5',
+            times:['1:00 PM','4:00 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -34,13 +38,15 @@ export default[
     title: "Deadpool & Wolverine",
     imgUrl: "/image/deadr.jpeg",
     genre: ["Action, Comedy"],
-    description: "Deadpool and Wolverine team up for an insane adventure.",
+    description: "Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.",
     rating: 'R',
-    duration: "140 min",
+    duration: "2h 8m",
     actors: ["Ryan Reynolds", "Hugh Jackman"],
     showtimes: [
-        { day: 'WednesDay', time: '12:00 PM'},
-        { day: 'ThursDay', time: '2:30 PM'}
+        {
+            day: 'Wednessday, July 5',
+            times:['4:30 PM','7:15 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -49,13 +55,15 @@ export default[
     title: "Flow",
     imgUrl: "/image/flowr.jpeg",
     genre: ["Adventure,Animation "],
-    description: "A gripping thriller about unexpected twists.",
+    description: "Cat is a solitary animal, but as its home is devastated by a great flood, he finds refuge on a boat populated by various species, and will have to team up with them despite their differences...",
     rating: 'PG-13',
-    duration: "120 min",
+    duration: "1h 25min",
     actors: ["Gints Zilbalodis"],
     showtimes: [
-        { day: 'ThursDay', time: '6:00 PM'},
-        { day: 'Friday', time: '7:50'}
+        {
+            day: 'Thurday, July 6',
+            times:['10:45 PM','12:00 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -64,13 +72,15 @@ export default[
     title: "Heart Eyes",
     imgUrl: "/image/eyesr.jpeg",
     genre: ["Romance, Horror"],
-    description: "A love story that will make your heart melt.",
+    description: "For the past several years, the Heart Eyes Killer has wreaked havoc on Valentine's Day by stalking and murdering romantic couples. This Valentine's Day, no couple is safe.",
     rating: 'R',
-    duration: "125 min",
+    duration: "1h 37min",
     actors: ["Olivia Holt","Mason Gooding","Josh Ruben","Jordana Brewster"],
     showtimes: [
-        { day: 'Monday', time: '3:30 PM'},
-        { day: 'Sunday', time: '2:30 PM'}
+        {
+            day: 'Friday, July 7',
+            times:['2:30 PM','4:30']
+        }
     ],
     hasWatch: true,
     },
@@ -79,13 +89,17 @@ export default[
     title: "Iron Man 3",
     imgUrl: "/image/ironr.jpeg",
     genre: ["Action, Sci-Fi"],
-    description: "Tony Stark faces a powerful enemy, the Mandarin.",
+    description: "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
     rating: 'PG-13',
-    duration: "130 min",
+    duration: "2h 10min",
     actors: ["Robert Downey Jr.", "Gwyneth Paltrow", "Ben Kingsley"],
     showtimes: [
-        { day: 'Saturday', time: '1:00 PM'},
-        { day: 'Monday', time: '9:40 PM'}
+        {
+            day: 'Friday, July 7',
+            times:['6:30 PM','9:00 PM']
+        }
+
+        
     ],
     hasWatch: true,
     },
@@ -94,13 +108,15 @@ export default[
     title: "Kraven the Hunter",
     imgUrl: "/image/kravr.jpeg",
     genre: ["Action, Adventure"],
-    description: "Kraven, a legendary hunter, takes on his biggest challenge.",
+    description: "Kraven's complex relationship with his ruthless father, Nikolai Kravinoff, starts him down a path of vengeance with brutal consequences, motivating him to become not only the greatest hunter.",
     rating: 'R',
-    duration: "145 min",
+    duration: " 2h 7min",
     actors: ["Aaron Taylor-Johnson"],
     showtimes: [
-        { day: 'WednesDay', time: '4:30 PM'},
-        { day: 'Friday', time: '2:30 PM'}
+        {
+            day: 'Saturday, July 8',
+            times:['2:30 PM','12:00 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -109,13 +125,15 @@ export default[
     title: "Mufasa: The Lion King",
     imgUrl: "/image/lionr.jpeg",
     genre: ["Animation, Adventure"],
-    description: "The untold story of Mufasa’s rise to power.",
+    description: "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
     rating: 'PG-13',
-    duration: "118 min",
+    duration: "1h 58min",
     actors: ["Aaron Pierre","Mads Mikkelsen","Beyonce","John Kani"],
     showtimes: [
-        { day: 'SaturDay', time: '11:20 PM'},
-        { day: 'ThursDay', time: '5:30 PM'}
+        {
+            day: 'Sunday, July 9',
+            times:['9:30 PM','12:15']
+        }
     ],
     hasWatch: true,
     },
@@ -124,13 +142,15 @@ export default[
     title: "Moana 2",
     imgUrl: "/image/moanar.jpeg",
     genre: ["Animation, Adventure"],
-    description: "Moana embarks on another great journey.",
+    description: "After receiving an unexpected call from her wayfinding ancestors, Moana must journey to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
     rating: 'PG-13',
-    duration: "115 min",
+    duration: "1h 40min",
     actors: ["Auli’i Cravalho", "Dwayne Johnson"],
     showtimes: [
-        { day: 'Monday', time: '11:00 PM'},
-        { day: 'Tuesday', time: '2:30 PM'}
+        {
+            day: 'Monday, July 10',
+            times:['2:30 PM','12:00 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -139,13 +159,15 @@ export default[
     title: "The Monkey",
     imgUrl: "/image/monkeyr.jpeg",
     genre: ["Horror, Thriller"],
-    description: "A terrifying tale of a cursed monkey.",
+    description: "When twin brothers Bill and Hal find their father's old monkey toy in the attic, a series of gruesome deaths start. The siblings decide to throw the toy away and move on with their lives, growing apart over the years.",
     rating: 'R',
-    duration: "122 min",
+    duration: "1h 38min",
     actors: ["Oz Perkins", "Theo James","Tatiana", "Elijah Wood"],
     showtimes: [
-        { day: 'WednesDay', time: '6:20 PM'},
-        { day: 'Tuesday', time: '2:30 PM'}
+        {
+            day: 'Monday, July 10',
+            times:['2:30 PM','5:00 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -154,13 +176,15 @@ export default[
     title: "Paddington in Peru",
     imgUrl: "/image/paddinr.jpeg",
     genre: ["Adventure, Comedy"],
-    description: "Paddington’s new adventure takes him to Peru.",
+    description: "Paddington returns to Peru to visit his beloved Aunt Lucy, who now resides at the Home for Retired Bears. With the Brown family in tow, a thrilling adventure ensues when a mystery plunges them into an unexpected journey.",
     rating: 'PG-13',
-    duration: "110 min",
+    duration: "1h 46min",
     actors: ["Ben Whishaw"],
     showtimes: [
-        { day: 'SaturDay', time: '12:00 PM'},
-        { day: 'SunDay', time: '2:30 PM'}
+        {
+            day: 'Tuesday, July 11',
+            times:['2:30 PM','12:00 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -169,13 +193,15 @@ export default[
     title: "Red One",
     imgUrl: "/image/redoner.jpeg",
     genre: ["Action, Comedy"],
-    description: "A holiday action-comedy adventure.",
+    description: "After Santa Claus is kidnapped, the North Pole's Head of Security must team up with a notorious hacker in a globe-trotting, action-packed mission to save Christmas.",
     rating: 'PG-13',
-    duration: "120 min",
+    duration: "2h 3min",
     actors: ["Dwayne Johnson", "Chris Evans"],
     showtimes: [
-        { day: 'Friday', time: '12:15 PM'},
-        { day: 'Tuesday', time: '4:20 PM'}
+        {
+            day: 'Wednessday, July 12',
+            times:['4:30 PM','8:45 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -184,13 +210,15 @@ export default[
     title: "Sonic 3",
     imgUrl: "/image/sonicr.jpeg",
     genre: ["Animation, Action"],
-    description: "Sonic and friends return for another adventure.",
+    description: "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched, Team Sonic must seek out an unlikely alliance.",
     rating: 'PG-3',
-    duration: "110 min",
+    duration: "1h 50min",
     actors: ["Ben Schwartz", "Idris Elba"],
     showtimes: [
-        { day: 'Wednesday', time: '12:00 AM'},
-        { day: 'Tuesday', time: '8:00 AM'}
+        {
+            day: 'Monday, July 12',
+            times:['2:30 PM','12:00 PM']
+        }
     ],
     hasWatch: true,
     },
@@ -199,13 +227,16 @@ export default[
     title: "The Substance",
     imgUrl: "/image/sub1.jpeg",
     genre: ["Horror, Sci-Fi"],
-    description: "A mysterious substance changes lives.",
+    description: "A fading celebrity takes a black-market drug: a cell-replicating substance that temporarily creates a younger, better version of herself.",
     rating: 'R',
-    duration: "118 min",
+    duration: "2h 21min",
     actors: ["Demi Moore","Margaret Qualley","Dennis Quaid","Hugo Diego Garcia"],
     showtimes: [
-        { day: 'Monday', time: '12:00 PM'},
-        { day: 'Tuesday', time: '2:30 PM'}
+        {
+            day: 'Monday, July 13',
+            times:['11:00 AM','2:00 PM']
+        }
+        
     ],
     hasWatch: true,
     },
@@ -214,13 +245,15 @@ export default[
     title: "Undercover Brothe",
     imgUrl: "/image/undercoverr.jpeg",
     genre: ["Comedy, Action"],
-    description: "A secret agent takes on a hilarious mission.",
+    description: "When The Man tries to derail a black candidate's presidential campaign, Undercover Brother and his fellow secret agents come to the rescue.",
     rating: 'PG-13',
-    duration: "105 min",
+    duration: "1h 26min",
     actors: ["Eddie Griffin", "Dave Chappelle","Chris Kattan","Denise Richards"],
     showtimes: [
-        { day: 'Thursday', time: '12:00 PM'},
-        { day: 'Tuesday', time: '2:30 PM'}
+        {
+            day: 'Monday, July 14',
+            times:['2:30 PM','12:00 PM']
+        }
     ],
     hasWatch: true,
     }

@@ -3,19 +3,19 @@ import Movie from "./Movie";
 
 
 
-const Movies =()=> {
-    const movieInfo = props.data.map((item, index) => {
+const Movies =(props)=> {
+    const movieInfo = props.data.map((arr, index) => {
         return (
             <Movie 
             key={index}
-            title={item.title}
-            imgUrl={item.imgUrl}
-            description={item.description}
-            genre={item.genre}
-            rating={item.rating}
-            duration={item.duration}
-            actors={item.actors}
-            showtimes={item.showtimes}
+            title={arr.title}
+            imgUrl={arr.imgUrl}
+            description={arr.description}
+            genre={arr.genre}
+            rating={arr.rating}
+            duration={arr.duration}
+            actors={arr.actors}
+            showtimes={arr.showtimes}
             />
         )
     })
@@ -24,7 +24,9 @@ const Movies =()=> {
         <main className="main">
         <div className="container">
         <div className="row">
+            <section className="section">
         { movieInfo }
+            </section>
     </div>
 </div>
     </main>

@@ -1,5 +1,4 @@
 import Card from "./Card";
-import Movie from "./Movie";
 
 const Main = (props) => {
     const cardComponents = props.data.map((item, index) => {
