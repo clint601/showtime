@@ -18,7 +18,7 @@ const Sign =()=> {
     return(
         <main className="main">
             
-            <div className="container happy">
+            <div className="container happy mt-5 mb-5">
                 <h2 className="sign-text text-capitalize">sign in</h2>
                 <form action="#" method="POST">
                     <input type="email" placeholder="Email" required></input>
