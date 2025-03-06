@@ -11,7 +11,7 @@ export default[
     showtimes: [
         {
             day: 'Monday, July 4',
-            times:['2:30 PM','12:00 AM']
+            times:['2:30 PM', '12:00 AM']
         }
     ],
     hasWatch: true,
