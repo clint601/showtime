@@ -1,6 +1,6 @@
 const Footer =()=> {
     return(
-        <footer className="footer" id="contactfooter">
+        <footer className="footer move-footer" id="contactfooter">
         <div className="container plz-footer">
             <div className="row">
                 <div className="col-sm-6">
@@ -27,7 +27,6 @@ const Footer =()=> {
                 </div>
             </div>
                 <p className="colophon text-center text-light">Site by Clint Jackson&copy;2025</p>
-                <p className="text-center"><a href="#headerSection1" className="BT text-light">back to Top</a></p>
         </div>
     </footer>
     )
