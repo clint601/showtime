@@ -30,12 +30,12 @@ const Movie = (m) => {
                             </figure>
                         </div>
                         <div className="col-md-6 me-3">
-                            <h2 className="sp-text text-start mt-3">{m.title}</h2>
-                                <p className="img-text text-start">Rated: {m.rating}</p>
-                                <p className="img-text text-start">{m.description}</p>
-                                <p className="img-text text-start">⏳ Duration: {m.duration}</p>
-                                <p className="img-text text-start">🎭 Cast: {m.actors}</p>
-                                <p className="img-text text-start">🎬 Genre: {m.genre}</p>
+                            <h2 className="sp-text text-start mt-3 text-light">{m.title}</h2>
+                                <p className="img-text text-start text-light">Rated: {m.rating}</p>
+                                <p className="img-text text-start text-light">{m.description}</p>
+                                <p className="img-text text-start text-light">⏳ Duration: {m.duration}</p>
+                                <p className="img-text text-start text-light">🎭 Cast: {m.actors}</p>
+                                <p className="img-text text-start text-light">🎬 Genre: {m.genre}</p>
                                 <ul className="list-unstyled">
                                     { listItems}
                                 </ul>
