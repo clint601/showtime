@@ -16,6 +16,7 @@ const Main = (props) => {
         }
     }, []);
 
+    
     const cardComponents = props.data.map((item, index) => (
         <Card 
             key={index}
